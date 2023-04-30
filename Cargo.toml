@@ -11,3 +11,7 @@ edition = "2021"
 [[bin]]
 name = "rust-programming"
 path = "src/day1/main.rs"
+
+[[bin]]
+name = "rust-programming-day2"
+path = "src/day2/main.rs"
