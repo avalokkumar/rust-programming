@@ -1,17 +1,24 @@
 [package]
 name = "rust-programming"
 version = "0.1.0"
-authors = ["Your Name <your_email@example.com>"]
+authors = ["Your Name clay@clay.com"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
+regex = "1.6"
+
 [[bin]]
-name = "rust-programming"
+name = "rust-programming-day1"
 path = "src/day1/main.rs"
+
 
 [[bin]]
 name = "rust-programming-day2"
 path = "src/day2/main.rs"
+
+[[bin]]
+name = "rust-programming-day3"
+path = "src/day3/main.rs"
