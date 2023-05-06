@@ -9,6 +9,7 @@ edition = "2021"
 [dependencies]
 
 regex = "1.6"
+rand = "0.8.3"
 
 [[bin]]
 name = "rust-programming-day1"
@@ -22,3 +23,7 @@ path = "src/day2/main.rs"
 [[bin]]
 name = "rust-programming-day3"
 path = "src/day3/main.rs"
+
+[[bin]]
+name = "rust-programming-day4"
+path = "src/day4/main.rs"
